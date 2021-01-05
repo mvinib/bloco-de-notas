@@ -8,7 +8,7 @@ import styles from './Style';
 
 
 export default function Login({navigation}) {
-  const [defaullt, setDefaullt] = useState("mvbs1907")
+  const [defaullt, setDefaullt] = useState("*senha de sua escolha*")
   const[senha, setSenha] = useState('');
 
   function verificar(){ /// validação da senha de entrada
